@@ -48,8 +48,8 @@ Convert TensorFlow {tftrain,tfvalid,tftest}.record files:
 
 ## Get pre-trained TensorFlow network
 
-    wget http://download.tensorflow.org/models/object_detection/ssdlite_mobilenet_v2_coco_2018_05_09.tar.gz
-    tar xaf ssdlite_mobilenet_v2_coco_2018_05_09.tar.gz
+    wget http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_coco_2018_01_28.tar.gz
+    tar xaf ssd_mobilenet_v1_coco_2018_01_28.tar.gz
 
 ## Fix bug
 To fix [a bug](https://github.com/tensorflow/models/issues/4996#issuecomment-410640308), in *models/research/object_detection/metrics/coco_tools.py* change
