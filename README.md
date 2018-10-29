@@ -68,12 +68,8 @@ Install dependencies:
     sudo pacman -S cython
     pip install --user pycocotools
 
-Then run training:
+Then run training and monitor the results:
 
     ./train.sh
-
-After it starts, run evaluation simultaneously if you want to see the results in TensorBoard:
-
-    ./eval.sh
     tensorboard --logdir object_detection_models/
 
