@@ -49,4 +49,22 @@ Convert TensorFlow {tftrain,tfvalid,tftest}.record files:
 ## Get pre-trained TensorFlow network
 
     wget http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_coco_2018_01_28.tar.gz
+    tar xaf ssd_mobilenet_v1_coco_2018_01_28.tar.gz
+    mkdir object_detection_models/
+    cp ssd_mobilenet_v1_coco_2018_01_28/model.ckpt* object_detection_models/
+
+## Training
+Install dependencies:
+
+    sudo pacman -S cython
+    pip install --user pycocotools
+
+Then run training:
+
+    ./train.sh
+
+After it starts, run evaluation simultaneously if you want to see the results in TensorBoard:
+
+    ./eval.sh
+    tensorboard --logdir object_detection_models/
 

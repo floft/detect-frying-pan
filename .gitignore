@@ -1,6 +1,8 @@
-Flickr_code_2009_05_14/
+Flickr_code_*/
 __pycache__/
 google_images/
 my_images*/
 *.tar.gz
 *.record
+ssd_mobilenet_v1_coco_*/
+object_detection_models/
