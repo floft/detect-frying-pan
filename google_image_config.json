@@ -1,0 +1,100 @@
+{
+    "Records": [
+        {
+            "chromedriver": "/usr/bin/chromedriver",
+            "output_directory": "google_images/",
+            "keywords": "frying pan top view",
+            "limit": 200,
+            "size": "medium",
+            "print_urls": true
+        },
+        {
+            "chromedriver": "/usr/bin/chromedriver",
+            "output_directory": "google_images/",
+            "keywords": "frying pan cooking egg",
+            "limit": 200,
+            "size": "medium",
+            "print_urls": true
+        },
+        {
+            "chromedriver": "/usr/bin/chromedriver",
+            "output_directory": "google_images/",
+            "keywords": "empty frying pan",
+            "limit": 200,
+            "size": "medium",
+            "print_urls": true
+        },
+        {
+            "chromedriver": "/usr/bin/chromedriver",
+            "output_directory": "google_images/",
+            "keywords": "frying pan on stove",
+            "limit": 200,
+            "size": "medium",
+            "print_urls": true
+        },
+        {
+            "chromedriver": "/usr/bin/chromedriver",
+            "output_directory": "google_images/",
+            "keywords": "frying pan on grass",
+            "limit": 200,
+            "size": "medium",
+            "print_urls": true
+        },
+        {
+            "chromedriver": "/usr/bin/chromedriver",
+            "output_directory": "google_images/",
+            "keywords": "frying pan on concrete",
+            "limit": 200,
+            "size": "medium",
+            "print_urls": true
+        },
+        {
+            "chromedriver": "/usr/bin/chromedriver",
+            "output_directory": "google_images/",
+            "keywords": "empty skillet grass",
+            "limit": 200,
+            "size": "medium",
+            "print_urls": true
+        },
+        {
+            "chromedriver": "/usr/bin/chromedriver",
+            "output_directory": "google_images/",
+            "keywords": "frying pan cooking",
+            "limit": 200,
+            "size": "medium",
+            "print_urls": true
+        },
+        {
+            "chromedriver": "/usr/bin/chromedriver",
+            "output_directory": "google_images/",
+            "keywords": "skillet cast iron",
+            "limit": 200,
+            "size": "medium",
+            "print_urls": true
+        },
+        {
+            "chromedriver": "/usr/bin/chromedriver",
+            "output_directory": "google_images/",
+            "keywords": "skillet antique",
+            "limit": 200,
+            "size": "medium",
+            "print_urls": true
+        },
+        {
+            "chromedriver": "/usr/bin/chromedriver",
+            "output_directory": "google_images/",
+            "keywords": "frying pan",
+            "limit": 200,
+            "size": "medium",
+            "print_urls": true
+        },
+        {
+            "chromedriver": "/usr/bin/chromedriver",
+            "output_directory": "google_images/",
+            "keywords": "skillet",
+            "limit": 200,
+            "size": "medium",
+            "print_urls": true
+        }
+    ]
+}
