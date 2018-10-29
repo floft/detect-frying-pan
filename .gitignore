@@ -6,3 +6,4 @@ my_images*/
 *.record
 ssd*_mobilenet_v*_coco_*/
 *_models*/
+*.txt
