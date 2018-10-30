@@ -9,6 +9,7 @@ https://github.com/WSU-RAS/ras-object-detection
 """
 import os
 import random
+from PIL import Image
 import tensorflow as tf
 from models.research.object_detection.utils import dataset_util
 
@@ -27,6 +28,68 @@ def loadImage(filename):
 
     return encoded
 
+def remove_transparency(im, bg_colour=(255, 255, 255)):
+    """
+    Remove alpha channel of image
+
+    Taken from: https://stackoverflow.com/a/35859141
+    """
+    # Only process if image has transparency
+    # (http://stackoverflow.com/a/1963146)
+    if im.mode in ('RGBA', 'LA') or (im.mode == 'P' and 'transparency' in im.info):
+        # Need to convert to RGBA if LA format due to a bug in PIL
+        # (http://stackoverflow.com/a/1963146)
+        alpha = im.convert('RGBA').getchannel('A')
+
+        # Create a new background image of our matt color. Must be RGBA because
+        # paste requires both images have the same format
+        # (http://stackoverflow.com/a/8720632 and
+        # http://stackoverflow.com/a/9459208)
+        bg = Image.new("RGBA", im.size, bg_colour + (255,))
+        bg.paste(im, mask=alpha)
+        return bg
+    else:
+        return im
+
+def resize_image(filename, max_size=600):
+    """
+    Resize if any dimension over a certain amount. This is used because without
+    it I'm CPU bound trying to do all the data augmentation to huge images.
+
+    Taken from: https://stackoverflow.com/a/28453021
+    Results: find -name "*_resized.jpg"
+    """
+    image = Image.open(filename)
+    original_size = max(image.size[0], image.size[1])
+
+    # Skip RGBA images
+    if image.mode == "RGBA":
+        return
+
+    # Too big -> shrink
+    if original_size > max_size:
+        resized_file = open(os.path.splitext(filename)[0] + '_resized.jpg', "w")
+        if (image.size[0] > image.size[1]):
+            resized_width = max_size
+            resized_height = int(round((max_size/float(image.size[0]))*image.size[1]))
+        else:
+            resized_height = max_size
+            resized_width = int(round((max_size/float(image.size[1]))*image.size[0]))
+
+        image = image.resize((resized_width, resized_height), Image.ANTIALIAS)
+        image.save(resized_file, 'JPEG')
+        new_fn = resized_file.name
+
+        print("Shrinking", filename, "since", original_size, ">", max_size,
+                "new size:", str(resized_width)+"x"+str(resized_height),
+                "new name:", resized_file.name)
+
+    # No change
+    else:
+        new_fn = filename
+
+    return new_fn
+
 def bounds(x):
     """
     TensorFlow errors if we have a value less than 0 or more than 1. This
@@ -43,19 +106,29 @@ def create_tf_example(labels, filename, annotations, debug=False):
     if debug:
         print(filename)
 
-    width, height, imgformat = imgInfo(filename) # Image width and height
+    # Skip RGBA images
+    orig_width, orig_height, _, orig_mode = imgInfo(filename)
+
+    if orig_mode == "RGBA":
+        print("Warning: skipping", filename, "since RGBA")
+        return
+
+    filename = resize_image(filename) # Resize if too big
+    new_width, new_height, imgformat, _ = imgInfo(filename)
     encoded_image_data = loadImage(filename) # Encoded image bytes
 
     if debug:
-        print(str(width)+"x"+str(height), imgformat)
+        print(filename, str(width)+"x"+str(height), imgformat)
 
     if imgformat == 'PNG':
         image_format = b'png' # b'jpeg' or b'png'
     elif imgformat == 'JPEG':
         image_format = b'jpeg'
     else:
-        raise RuntimeError("Only supports PNG or JPEG images")
+        print("Warning: skipping", filename, "since only supports PNG or JPEG images")
 
+    # Calculate the annotations based on the original width/height since that's
+    # what was annotated (i.e. before we resize)
     xmins = []        # List of normalized left x coordinates in bounding box (1 per box)
     xmaxs = []        # List of normalized right x coordinates in bounding box (1 per box)
     ymins = []        # List of normalized top y coordinates in bounding box (1 per box)
@@ -69,10 +142,10 @@ def create_tf_example(labels, filename, annotations, debug=False):
         classes_text.append(a['class'].encode())
 
         # Scaled min/maxes
-        xmins.append(bounds(a['x']/width))
-        ymins.append(bounds(a['y']/height))
-        xmaxs.append(bounds((a['x']+a['width'])/width))
-        ymaxs.append(bounds((a['y']+a['height'])/height))
+        xmins.append(bounds(a['x']/orig_width))
+        ymins.append(bounds(a['y']/orig_height))
+        xmaxs.append(bounds((a['x']+a['width'])/orig_width))
+        ymaxs.append(bounds((a['y']+a['height'])/orig_height))
 
         # We got errors: maximum box coordinate value is larger than 1.010000
         valid = lambda x: x >= 0 and x <= 1
@@ -81,8 +154,8 @@ def create_tf_example(labels, filename, annotations, debug=False):
                 str(xmins[-1])+","+str(ymins[-1])+","+str(xmaxs[-1])+","+str(ymaxs[-1])
 
     tf_example = tf.train.Example(features=tf.train.Features(feature={
-        'image/height': dataset_util.int64_feature(height),
-        'image/width': dataset_util.int64_feature(width),
+        'image/height': dataset_util.int64_feature(new_height),
+        'image/width': dataset_util.int64_feature(new_width),
         'image/filename': dataset_util.bytes_feature(filename.encode()),
         'image/source_id': dataset_util.bytes_feature(filename.encode()),
         'image/encoded': dataset_util.bytes_feature(encoded_image_data),
@@ -121,7 +194,8 @@ def tfRecord(folder, labels, output, data):
         for (img, annotations) in data:
             filename = os.path.join(folder, img)
             tf_example = create_tf_example(labels, filename, annotations)
-            writer.write(tf_example.SerializeToString())
+            if tf_example is not None:
+                writer.write(tf_example.SerializeToString())
 
 def tfLabels(labels, output):
     """ Write tf_label_map.pbtxt file containing the labels/integer mapping """

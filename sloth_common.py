@@ -110,10 +110,10 @@ def getSize(filename):
         return width, height
 
 def imgInfo(filename):
-    """ Get image dimensions and type
-    Returns: width, height, format """
+    """ Get image dimensions, type, and mode
+    Returns: width, height, format, mode """
     im = Image.open(filename)
-    return (im.size[0], im.size[1], im.format)
+    return (im.size[0], im.size[1], im.format, im.mode)
 
 def splitData(data, trainPercent, validPercent, limit=None, shuffle=True):
     """

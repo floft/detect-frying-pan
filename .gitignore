@@ -4,6 +4,7 @@ google_images/
 my_images*/
 *.tar.gz
 *.record
-ssd*_mobilenet_v*_coco_*/
+ssd*_mobilenet_v*_coco*/
 *_models*/
 *.txt
+*.bak
