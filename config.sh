@@ -1,6 +1,8 @@
 #
 # Options
 #
+# For timing testing, also output the frozen graph (i.e. not using TF Lite)
+exported_graph="exported_models.graph"
 
 # Floating point
 #config="ssd_mobilenet_v1_coco.config"
