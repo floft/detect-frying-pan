@@ -13,7 +13,7 @@ from PIL import Image
 import tensorflow as tf
 from models.research.object_detection.utils import dataset_util
 
-from sloth_common import getJson, uniqueClasses, predefinedClasses, \
+from sloth_common import getJson, uniqueClasses, \
     imgInfo, mapLabel, splitData
 
 # Make this repeatable
@@ -118,7 +118,7 @@ def create_tf_example(labels, filename, annotations, debug=False):
     encoded_image_data = loadImage(filename) # Encoded image bytes
 
     if debug:
-        print(filename, str(width)+"x"+str(height), imgformat)
+        print(filename, str(new_width)+"x"+str(new_height), imgformat)
 
     if imgformat == 'PNG':
         image_format = b'png' # b'jpeg' or b'png'
@@ -169,7 +169,7 @@ def create_tf_example(labels, filename, annotations, debug=False):
     }))
     return tf_example
 
-def splitJsonData(data, trainPercent=0.8, validPercent=0.2, shuffle=True):
+def splitJsonData(data, trainPercent=0.8, validPercent=0.2, shuffle=True, skipNegative=False):
     """
     Split the JSON data so we can get a training, validation, and testing file
 
@@ -178,9 +178,10 @@ def splitJsonData(data, trainPercent=0.8, validPercent=0.2, shuffle=True):
     results = []
 
     for image in data:
-        # Skip if we don't have any labels for this image
-        if not len(image['annotations']) > 0:
-            continue
+        if skipNegative:
+            # Skip if we don't have any labels for this image
+            if not len(image['annotations']) > 0:
+                continue
 
         results.append((image['filename'], image['annotations']))
 
@@ -211,7 +212,6 @@ def main(_):
     folder = "."
     data = getJson(os.path.join(folder, "sloth.json"))
     labels = uniqueClasses(data)
-    #labels = predefinedClasses()
 
     # Save labels
     tfLabels(labels, os.path.join(folder, "tf_label_map.pbtxt"))
