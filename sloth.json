@@ -24532,72 +24532,184 @@
         "filename": "rpi_images/00002/00713.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 33.46411235061365,
+                "width": 32.19332327400808,
+                "x": 14.825872560398455,
+                "y": 179.6048561602556
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/00723.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 39.81805773364158,
+                "width": 26.262974249848696,
+                "x": 0.42359635886852764,
+                "y": 202.05546318028752
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/00733.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 27.957359685322814,
+                "width": 25.83937789098016,
+                "x": 148.68232196285308,
+                "y": 158.00144185796069
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/00743.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 29.228148761928367,
+                "width": 28.380956044191322,
+                "x": 215.6105466640804,
+                "y": 144.0227620152993
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/00753.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 30.07534147966544,
+                "width": 28.80455240305986,
+                "x": 223.65887748258243,
+                "y": 148.25872560398457
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/00763.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 25.839377890980188,
+                "width": 22.87420337890046,
+                "x": 193.583536002917,
+                "y": 145.71714745077338
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/00773.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 29.228148761928395,
+                "width": 22.450607020031953,
+                "x": 189.77116877310024,
+                "y": 246.5330808614829
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/00783.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 24.992185173243115,
+                "width": 21.179817943426343,
+                "x": 197.81949959160227,
+                "y": 180.0284525191241
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/00793.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 20.3326252256893,
+                "width": 21.17981794342637,
+                "x": 220.69370297050273,
+                "y": 122.84294407187292
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/00803.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 21.76068173005268,
+                "width": 21.04721675529686,
+                "x": 237.58383659368997,
+                "y": 145.54685485018845
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/00813.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 19.977019293163124,
+                "width": 17.836624368895656,
+                "x": 240.08096400533535,
+                "y": 148.04398226183383
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/00823.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 20.333751780541007,
+                "width": 17.479891881517716,
+                "x": 230.0924543587538,
+                "y": 165.52387414335158
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/00833.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 18.90682183102939,
+                "width": 16.766426906761893,
+                "x": 225.098199535463,
+                "y": 192.63554318407293
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/00843.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 19.2635543184073,
+                "width": 16.76642690676192,
+                "x": 214.0394924267477,
+                "y": 216.1798873510152
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/00853.jpg"
     },
@@ -24607,112 +24719,288 @@
         "filename": "rpi_images/00002/00863.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 18.193356856273567,
+                "width": 17.479891881517716,
+                "x": 214.75295740150355,
+                "y": 169.0911990171307
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/00873.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 18.55008934365148,
+                "width": 14.982764469872336,
+                "x": 209.04523760345694,
+                "y": 162.31328175695035
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/00883.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 16.40969441938401,
+                "width": 13.55583452036069,
+                "x": 200.1269254190091,
+                "y": 163.38347921908408
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/00893.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 13.912567007738602,
+                "width": 14.269299495116513,
+                "x": 179.43644115109018,
+                "y": 193.7057406462067
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/00903.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 14.982764469872336,
+                "width": 12.84236954560484,
+                "x": 215.46642237625937,
+                "y": 169.4479315045086
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/00913.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 14.626031982494425,
+                "width": 14.626031982494425,
+                "x": 214.75295740150355,
+                "y": 173.37198886566566
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/00923.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 15.696229444628159,
+                "width": 11.772172083471133,
+                "x": 212.61256247723605,
+                "y": 165.16714165597367
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/00933.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 15.696229444628159,
+                "width": 15.696229444628159,
+                "x": 215.82315486363728,
+                "y": 87.75619189496656
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/00951.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 16.40969441938398,
+                "width": 12.128904570849045,
+                "x": 223.67126958595136,
+                "y": 147.330517287078
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/00961.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 15.696229444628159,
+                "width": 14.626031982494425,
+                "x": 215.10968988888146,
+                "y": 155.8920969841479
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/00971.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 14.269299495116513,
+                "width": 13.199102032982779,
+                "x": 209.04523760345694,
+                "y": 153.39496957250253
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/00981.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 16.05296193200607,
+                "width": 11.772172083471105,
+                "x": 208.68850511607903,
+                "y": 165.52387414335158
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/00991.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 13.55583452036069,
+                "width": 11.772172083471133,
+                "x": 196.55960054522998,
+                "y": 154.82189952201418
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01001.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 14.626031982494425,
+                "width": 13.912567007738602,
+                "x": 201.19712288114286,
+                "y": 168.37773404237487
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01011.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 16.05296193200607,
+                "width": 14.626031982494425,
+                "x": 187.99802084816008,
+                "y": 161.59981678219452
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01021.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 14.269299495116513,
+                "width": 14.269299495116513,
+                "x": 214.75295740150355,
+                "y": 156.96229444628165
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01031.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 20.333751780541036,
+                "width": 19.2635543184073,
+                "x": 223.31453709857345,
+                "y": 176.22584876468895
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01041.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 20.333751780541036,
+                "width": 21.04721675529686,
+                "x": 245.78868380338196,
+                "y": 157.31902693365956
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01051.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 21.40394924267477,
+                "width": 19.620286805785213,
+                "x": 216.5366198383931,
+                "y": 160.17288683268288
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01061.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 26.398204065965558,
+                "width": 23.54434416694224,
+                "x": 216.89335232577102,
+                "y": 148.75744723658966
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01071.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 25.328006603831824,
+                "width": 24.971274116453884,
+                "x": 214.39622491412564,
+                "y": 162.31328175695035
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01081.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 30.322261427122584,
+                "width": 26.3982040659655,
+                "x": 261.12818076063223,
+                "y": 186.21435841127052
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01091.jpg"
     },
@@ -24737,32 +25025,80 @@
         "filename": "rpi_images/00002/01131.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 52.082943157175265,
+                "width": 45.66175838437286,
+                "x": 140.90933251427558,
+                "y": 91.6802492561236
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01141.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 57.79066295522189,
+                "width": 47.08868833388448,
+                "x": 131.63428784244985,
+                "y": 102.38222387746099
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01151.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 68.49263757655928,
+                "width": 56.00700051833232,
+                "x": 197.98653049474163,
+                "y": 118.79191829684498
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01161.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 85.61579697069908,
+                "width": 67.77917260180345,
+                "x": 226.16839699759674,
+                "y": 166.2373391181074
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01171.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 82.76193707167579,
+                "width": 73.13015991247215,
+                "x": 201.55385536852077,
+                "y": 111.65726854928673
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01181.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 97.3879690541702,
+                "width": 53.86660559406484,
+                "x": 0.0,
+                "y": 73.48689239985005
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01191.jpg"
     },
@@ -24787,52 +25123,132 @@
         "filename": "rpi_images/00002/01231.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 90.61005179398985,
+                "width": 31.39245888925633,
+                "x": -0.35673248737791285,
+                "y": -1.0701974621337387
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01241.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 56.720465493088156,
+                "width": 44.5915609222391,
+                "x": 145.90358733756636,
+                "y": 124.14290560751367
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01251.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 47.80215330864033,
+                "width": 40.6675035610821,
+                "x": 221.17414217430596,
+                "y": 189.06821831029382
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01261.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 38.17037614943666,
+                "width": 33.532853813523815,
+                "x": 237.94056908106788,
+                "y": 194.77593810834043
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01271.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 32.81938883876799,
+                "width": 28.895331477610938,
+                "x": 246.8588812655157,
+                "y": 213.6827599393698
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01281.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 31.74919137663423,
+                "width": 27.825134015477204,
+                "x": 266.122435583923,
+                "y": 236.51363913155623
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01291.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 28.181866502855087,
+                "width": 22.830879192186416,
+                "x": 240.79442898009117,
+                "y": 257.2041233994752
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01301.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 11.772172083471105,
+                "width": 22.474146704808504,
+                "x": 222.95780461119554,
+                "y": 289.3100472634873
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01311.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 13.555834520360634,
+                "width": 21.40394924267477,
+                "x": 217.60681730052684,
+                "y": 288.2398498013536
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01321.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 10.7019746213374,
+                "width": 22.474146704808504,
+                "x": 208.33177262870112,
+                "y": 290.73697721299897
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01331.jpg"
     },
@@ -24842,92 +25258,236 @@
         "filename": "rpi_images/00002/01341.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 24.971274116453912,
+                "width": 21.40394924267477,
+                "x": 194.0624731335846,
+                "y": 149.11417972396757
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01351.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 22.117414217430593,
+                "width": 21.76068173005268,
+                "x": 164.0969441938399,
+                "y": 75.98401981149544
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01361.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 23.187611679564334,
+                "width": 19.263554318407273,
+                "x": 173.72872135304357,
+                "y": 40.667503561082064
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01371.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 24.257809141698075,
+                "width": 21.76068173005268,
+                "x": 155.1786320093921,
+                "y": 82.04847209691995
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01381.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 22.474146704808504,
+                "width": 18.193356856273567,
+                "x": 135.20161271622896,
+                "y": 134.48814774147314
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01391.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 21.40394924267477,
+                "width": 21.40394924267477,
+                "x": 133.4179502793394,
+                "y": 106.30628123861803
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01401.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 19.2635543184073,
+                "width": 16.05296193200607,
+                "x": 145.54685485018845,
+                "y": 146.9737847997001
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01411.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 19.6202868057852,
+                "width": 15.339496957250248,
+                "x": 154.10843454725835,
+                "y": 108.80340865026342
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01421.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 19.977019293163124,
+                "width": 15.339496957250248,
+                "x": 154.10843454725835,
+                "y": 101.31202641532725
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01431.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 16.766426906761907,
+                "width": 16.40969441938398,
+                "x": 167.30753658024113,
+                "y": 95.24757412990273
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01441.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 16.052961932006085,
+                "width": 15.339496957250262,
+                "x": 103.45242133959472,
+                "y": 103.09568885221681
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01451.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 18.193356856273553,
+                "width": 15.339496957250248,
+                "x": 153.39496957250253,
+                "y": 104.16588631435056
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01461.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 16.40969441938398,
+                "width": 15.696229444628159,
+                "x": 168.73446652975278,
+                "y": 112.72746601142046
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01471.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 13.199102032982779,
+                "width": 12.128904570849045,
+                "x": 182.64703353749138,
+                "y": 128.42369545604862
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01481.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 12.842369545604868,
+                "width": 13.55583452036069,
+                "x": 185.50089343651467,
+                "y": 140.90933251427558
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01491.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 15.339496957250248,
+                "width": 15.696229444628159,
+                "x": 202.98078531803242,
+                "y": 127.35349799391489
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01501.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 21.04721675529686,
+                "width": 15.696229444628159,
+                "x": 247.92907872764943,
+                "y": 140.90933251427558
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01511.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 28.181866502855115,
+                "width": 24.61454162907603,
+                "x": 273.2570853314812,
+                "y": 166.5940716054853
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01521.jpg"
     },
@@ -24967,82 +25527,210 @@
         "filename": "rpi_images/00002/01591.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 30.678993914500523,
+                "width": 28.895331477610938,
+                "x": 182.29030105011347,
+                "y": 192.27881069669502
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01601.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 30.678993914500523,
+                "width": 27.468401528099292,
+                "x": 136.6285426657406,
+                "y": 135.9150776909848
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01611.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 34.60305127565755,
+                "width": 28.895331477610938,
+                "x": 113.08419849879837,
+                "y": 170.51812896664234
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01621.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 38.883841124192514,
+                "width": 30.67899391450051,
+                "x": 85.25906448332117,
+                "y": 219.7472122247943
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01631.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 38.17037614943666,
+                "width": 31.035726401878406,
+                "x": 75.62728732411753,
+                "y": 254.70699598782977
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01641.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 37.45691117468084,
+                "width": 30.322261427122598,
+                "x": 74.9138223493617,
+                "y": 250.42620613929483
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01651.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 41.380968535837894,
+                "width": 35.31651625041337,
+                "x": 70.98976498820466,
+                "y": 258.9877858363647
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01661.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 32.10592386401214,
+                "width": 34.24631878827964,
+                "x": 74.55708986198378,
+                "y": 269.6897604577021
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01671.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 38.883841124192486,
+                "width": 35.67324873779128,
+                "x": 59.93105787948936,
+                "y": 262.19837822276594
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01681.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 41.380968535837894,
+                "width": 33.889586300901726,
+                "x": 98.10143402892604,
+                "y": 224.7414670480851
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01691.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 37.45691117468087,
+                "width": 32.81938883876799,
+                "x": 157.31902693365956,
+                "y": 203.3375178054103
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01701.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 38.17037614943669,
+                "width": 33.532853813523815,
+                "x": 199.41346044425327,
+                "y": 204.40771526754406
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01711.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 38.883841124192486,
+                "width": 34.60305127565755,
+                "x": 205.4779127296778,
+                "y": 203.33751780541033
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01721.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 38.5271086368146,
+                "width": 34.60305127565752,
+                "x": 229.7357218713759,
+                "y": 184.78742846175885
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01731.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 36.029981225169195,
+                "width": 31.74919137663423,
+                "x": 124.8563705822695,
+                "y": 219.7472122247943
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01741.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 25.68473909120968,
+                "width": 29.96552893974468,
+                "x": 1.7836624368895642,
+                "y": 276.11094523050457
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01751.jpg"
     },
@@ -25062,7 +25750,15 @@
         "filename": "rpi_images/00002/01781.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 13.19910203298275,
+                "width": 39.95403858632622,
+                "x": 173.72872135304357,
+                "y": 288.2398498013536
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/01791.jpg"
     },
@@ -25232,7 +25928,15 @@
         "filename": "rpi_images/00002/02121.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 39.24057361157041,
+                "width": 56.00700051833231,
+                "x": 15.339496957250253,
+                "y": 0.0
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/02131.jpg"
     },
@@ -25282,12 +25986,28 @@
         "filename": "rpi_images/00002/02221.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 60.64452285424519,
+                "width": 51.01274569504156,
+                "x": 247.57234624027151,
+                "y": 15.696229444628166
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/02231.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 16.766426906761904,
+                "width": 48.15888579601824,
+                "x": 48.87235077077406,
+                "y": 0.0
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/02241.jpg"
     },
@@ -25372,7 +26092,15 @@
         "filename": "rpi_images/00002/02401.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 55.65026803095441,
+                "width": 43.52136346010536,
+                "x": 256.84739091209724,
+                "y": 196.9163330326079
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/02411.jpg"
     },
@@ -25407,7 +26135,15 @@
         "filename": "rpi_images/00002/02471.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 78.83787971051876,
+                "width": 59.931057879489344,
+                "x": 88.82638935710031,
+                "y": 195.13267059571834
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/02481.jpg"
     },
@@ -25477,12 +26213,28 @@
         "filename": "rpi_images/00002/02611.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 31.392458889256318,
+                "width": 43.52136346010537,
+                "x": 43.87809594748328,
+                "y": 268.26283050819046
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/02621.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 64.9253127027801,
+                "width": 54.22333808144276,
+                "x": 242.93482390435867,
+                "y": 215.10968988888146
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00002/02631.jpg"
     },
@@ -25632,27 +26384,67 @@
         "filename": "rpi_images/00003/00476.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 37.45691117468085,
+                "width": 25.684739091209735,
+                "x": 248.64254370240525,
+                "y": 13.912567007738602
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/00486.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 41.737701023215806,
+                "width": 14.982764469872336,
+                "x": 285.7427223897082,
+                "y": 82.40520458429786
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/00496.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 39.240573611570426,
+                "width": 33.1761213261459,
+                "x": 199.05672795687536,
+                "y": 92.75044671825734
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/00506.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 41.02423604845998,
+                "width": 34.95978376303546,
+                "x": 173.01525637828775,
+                "y": 66.7089751396697
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/00511.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 49.9425482329078,
+                "width": 38.17037614943669,
+                "x": 128.78042794342653,
+                "y": 0.0
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/00521.jpg"
     },
@@ -25662,82 +26454,210 @@
         "filename": "rpi_images/00003/00531.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 44.94829340961702,
+                "width": 37.45691117468087,
+                "x": 225.098199535463,
+                "y": 103.09568885221681
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/00541.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 42.45116599797163,
+                "width": 32.81938883876799,
+                "x": 170.16139647926443,
+                "y": 67.77917260180344
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/00551.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 36.74344619992502,
+                "width": 27.111669040721353,
+                "x": 192.27881069669505,
+                "y": 59.217592904733536
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/00561.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 30.322261427122584,
+                "width": 27.825134015477204,
+                "x": 227.23859445973048,
+                "y": 86.68599443283283
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/00571.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 26.041471578587647,
+                "width": 23.187611679564355,
+                "x": 199.41346044425327,
+                "y": 119.5053832716008
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/00581.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 22.47414670480852,
+                "width": 20.690484267918947,
+                "x": 187.99802084816008,
+                "y": 124.14290560751367
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/00591.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 23.90107665432015,
+                "width": 17.123159394139805,
+                "x": 180.86337110060182,
+                "y": 97.0312365667923
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/00600.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 22.117414217430593,
+                "width": 17.836624368895656,
+                "x": 169.8046639918865,
+                "y": 144.1199249006768
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/00610.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 16.40969441938398,
+                "width": 15.339496957250248,
+                "x": 160.8863518074387,
+                "y": 147.330517287078
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/00620.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 16.409694419383996,
+                "width": 14.982764469872308,
+                "x": 141.62279748903143,
+                "y": 115.93805839782168
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/00630.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 16.052961932006085,
+                "width": 14.269299495116513,
+                "x": 155.8920969841479,
+                "y": 116.29479088519959
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/00640.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 17.836624368895627,
+                "width": 16.0529619320061,
+                "x": 163.740211706462,
+                "y": 144.47665738805472
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/00650.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 19.620286805785213,
+                "width": 16.40969441938398,
+                "x": 168.37773404237487,
+                "y": 149.47091221134548
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/00660.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 18.55008934365148,
+                "width": 18.19335685627354,
+                "x": 174.4421863277994,
+                "y": 161.95654926957243
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/00670.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 21.40394924267477,
+                "width": 18.90682183102939,
+                "x": 183.0037660248693,
+                "y": 162.31328175695035
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/00680.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 24.614541629076,
+                "width": 21.76068173005268,
+                "x": 204.76444775492197,
+                "y": 127.35349799391489
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/00690.jpg"
     },
@@ -25767,22 +26687,54 @@
         "filename": "rpi_images/00003/00740.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 43.16463097272748,
+                "width": 38.17037614943666,
+                "x": 196.9163330326079,
+                "y": 129.49389291818235
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/00750.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 42.80789848534954,
+                "width": 33.17612132614589,
+                "x": 73.13015991247214,
+                "y": 77.767682248385
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/00760.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 46.01849087175076,
+                "width": 36.0299812251692,
+                "x": 44.23482843486119,
+                "y": 4.637522335912867
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/00770.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 41.380968535837894,
+                "width": 33.889586300901726,
+                "x": 188.7114858229159,
+                "y": 168.02100155499696
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/00780.jpg"
     },
@@ -25982,27 +26934,67 @@
         "filename": "rpi_images/00003/01181.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 122.35924317062411,
+                "width": 98.10143402892604,
+                "x": 98.10143402892604,
+                "y": 110.23033859977507
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/01191.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 109.87360611239716,
+                "width": 85.97252945807699,
+                "x": 138.4122051026302,
+                "y": 38.52710863681459
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/01201.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 65.99551016491387,
+                "width": 53.86660559406485,
+                "x": 239.36749903057952,
+                "y": 138.7689375900081
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/01211.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 42.80789848534954,
+                "width": 35.67324873779128,
+                "x": 219.0337472500385,
+                "y": 119.86211575897872
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/01221.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 38.527108636814575,
+                "width": 13.199102032982807,
+                "x": 286.8129198518419,
+                "y": 119.5053832716008
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/01231.jpg"
     },
@@ -26092,7 +27084,15 @@
         "filename": "rpi_images/00003/01401.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 42.80789848534951,
+                "width": 36.386713712547106,
+                "x": 211.89909750248023,
+                "y": 244.0050213664924
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/01411.jpg"
     },
@@ -26287,12 +27287,28 @@
         "filename": "rpi_images/00003/01791.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 136.98527515311852,
+                "width": 121.64577819586829,
+                "x": 122.0025106832462,
+                "y": 164.0969441938399
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/01801.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 285.7427223897082,
+                "width": 233.303046745155,
+                "x": -1.4269299495116514,
+                "y": 13.555834520360689
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/01811.jpg"
     },
@@ -26302,7 +27318,15 @@
         "filename": "rpi_images/00003/01821.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 58.860860417355624,
+                "width": 47.08868833388449,
+                "x": 115.22459342306585,
+                "y": 121.64577819586829
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/01830.jpg"
     },
@@ -26402,27 +27426,67 @@
         "filename": "rpi_images/00003/02201.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 69.56283503869301,
+                "width": 34.95978376303543,
+                "x": 266.122435583923,
+                "y": 166.5940716054853
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02211.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 53.86660559406482,
+                "width": 41.380968535837894,
+                "x": 167.66426906761905,
+                "y": 131.99102032982776
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02221.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 38.527108636814575,
+                "width": 29.965528939744686,
+                "x": 123.07270814537993,
+                "y": 118.07845332208916
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02231.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 28.181866502855115,
+                "width": 24.614541629076,
+                "x": 155.53536449677,
+                "y": 118.43518580946707
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02241.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 28.181866502855115,
+                "width": 23.187611679564355,
+                "x": 244.71848634124822,
+                "y": 178.72297617633433
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02251.jpg"
     },
@@ -26432,32 +27496,80 @@
         "filename": "rpi_images/00003/02261.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 23.90107665432018,
+                "width": 8.20484720969199,
+                "x": 292.52063964988855,
+                "y": 214.0394924267477
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02271.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 19.2635543184073,
+                "width": 17.123159394139833,
+                "x": 173.37198886566563,
+                "y": 153.39496957250253
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02281.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 16.40969441938401,
+                "width": 15.339496957250276,
+                "x": 143.40645992592096,
+                "y": 142.69299495116513
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02291.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 18.90682183102939,
+                "width": 16.766426906761907,
+                "x": 78.12441473576291,
+                "y": 171.23159394139816
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02301.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 21.047216755296873,
+                "width": 18.906821831029376,
+                "x": 63.49838275326849,
+                "y": 116.29479088519959
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02311.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 22.117414217430593,
+                "width": 22.117414217430593,
+                "x": 200.84039039376495,
+                "y": 127.7102304812928
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02321.jpg"
     },
@@ -26467,32 +27579,80 @@
         "filename": "rpi_images/00003/02331.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 29.60879645236676,
+                "width": 25.328006603831795,
+                "x": 273.61381781885916,
+                "y": 193.34900815882878
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02341.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 30.678993914500495,
+                "width": 26.39820406596553,
+                "x": 251.49640360142857,
+                "y": 180.5066386132239
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02351.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 32.81938883876796,
+                "width": 30.322261427122584,
+                "x": 219.0337472500385,
+                "y": 173.72872135304357
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02361.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 35.67324873779128,
+                "width": 28.895331477610938,
+                "x": 190.85188074718337,
+                "y": 175.1556513025552
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02371.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 35.31651625041337,
+                "width": 29.25206396498885,
+                "x": 160.8863518074387,
+                "y": 193.34900815882878
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02381.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 38.883841124192514,
+                "width": 33.889586300901726,
+                "x": 265.05223812178923,
+                "y": 177.29604622682268
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02391.jpg"
     },
@@ -26557,57 +27717,145 @@
         "filename": "rpi_images/00003/02505.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 69.56283503869301,
+                "width": 49.9425482329078,
+                "x": 250.78293862667275,
+                "y": -0.7134649747558257
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02515.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 26.398204065965558,
+                "width": 62.784917778512664,
+                "x": 185.14416094913676,
+                "y": 275.0407477683708
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02525.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 57.07719798046608,
+                "width": 49.229083258151974,
+                "x": 126.28330053178115,
+                "y": 150.89784216085712
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02535.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 37.81364366205875,
+                "width": 32.10592386401214,
+                "x": 153.75170205988044,
+                "y": 104.16588631435056
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02545.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 26.041471578587647,
+                "width": 23.901076654320164,
+                "x": 102.02549139008308,
+                "y": 105.94954875124012
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02555.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 18.90682183102939,
+                "width": 18.550089343651464,
+                "x": 77.05421727362918,
+                "y": 117.72172083471125
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02565.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 20.333751780541036,
+                "width": 17.47989188151773,
+                "x": 45.661758384372845,
+                "y": 120.57558073373454
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02575.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 17.12315939413982,
+                "width": 16.40969441938398,
+                "x": 97.0312365667923,
+                "y": 123.07270814537993
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02585.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 18.55008934365148,
+                "width": 18.193356856273553,
+                "x": 88.46965686972239,
+                "y": 95.96103910465855
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02595.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 18.906821831029376,
+                "width": 17.47989188151773,
+                "x": 102.02549139008308,
+                "y": 93.82064418039108
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02605.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 9.631777159203647,
+                "width": 22.474146704808504,
+                "x": 211.89909750248023,
+                "y": 0.0
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02615.jpg"
     },
@@ -26617,12 +27865,28 @@
         "filename": "rpi_images/00003/02625.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 41.737701023215806,
+                "width": 35.31651625041337,
+                "x": 230.0924543587538,
+                "y": 199.7701929316312
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02635.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 41.02423604845998,
+                "width": 32.819388838767985,
+                "x": 51.36947818241945,
+                "y": 234.72997669466665
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02645.jpg"
     },
@@ -26632,32 +27896,80 @@
         "filename": "rpi_images/00003/02655.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 41.737701023215806,
+                "width": 34.959783763035475,
+                "x": 110.58707108715298,
+                "y": 231.16265182088753
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02665.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 41.737701023215806,
+                "width": 35.67324873779128,
+                "x": 166.2373391181074,
+                "y": 149.47091221134548
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02675.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 49.585815745529885,
+                "width": 43.52136346010536,
+                "x": 13.555834520360689,
+                "y": 97.38796905417021
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02685.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 49.585815745529885,
+                "width": 26.754936553343462,
+                "x": -1.7836624368895642,
+                "y": 85.97252945807699
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02695.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 43.52136346010536,
+                "width": 40.31077107370416,
+                "x": 188.354753335538,
+                "y": 114.1543959609321
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02705.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 41.737701023215806,
+                "width": 33.1761213261459,
+                "x": 214.0394924267477,
+                "y": 162.31328175695035
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02715.jpg"
     },
@@ -26667,52 +27979,132 @@
         "filename": "rpi_images/00003/02725.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 41.380968535837894,
+                "width": 33.17612132614585,
+                "x": 267.9060980208126,
+                "y": 82.40520458429786
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02735.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 41.380968535837894,
+                "width": 37.10017868730296,
+                "x": 241.15116146746908,
+                "y": 230.0924543587538
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02745.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 45.30502589699492,
+                "width": 37.456911174680855,
+                "x": 94.89084164252482,
+                "y": 83.83213453380952
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02755.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 71.34649747558257,
+                "width": 59.93105787948937,
+                "x": 199.41346044425327,
+                "y": 119.5053832716008
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02765.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 73.48689239985003,
+                "width": 59.57432539211143,
+                "x": 207.9750401413232,
+                "y": 145.90358733756636
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02769.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 27.111669040721324,
+                "width": 60.287790366867284,
+                "x": 241.15116146746908,
+                "y": 274.6840152809929
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02779.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 96.67450407941438,
+                "width": 77.767682248385,
+                "x": 194.41920562096252,
+                "y": 74.55708986198378
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02789.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 98.45816651630395,
+                "width": 81.69173960954203,
+                "x": 191.5653457219392,
+                "y": 128.42369545604862
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02799.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 116.2947908851996,
+                "width": 92.03698174350149,
+                "x": 208.33177262870112,
+                "y": 184.43069597438094
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02809.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 129.13716043080444,
+                "width": 35.673248737791255,
+                "x": 264.69550563441135,
+                "y": 44.94829340961702
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02819.jpg"
     },
@@ -26722,52 +28114,132 @@
         "filename": "rpi_images/00003/02829.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 113.44093098617631,
+                "width": 91.32351676874572,
+                "x": 171.94505891615398,
+                "y": 158.03249190841538
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02839.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 44.5915609222391,
+                "width": 32.10592386401217,
+                "x": 142.33626246378722,
+                "y": 140.90933251427558
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02849.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 27.468401528099264,
+                "width": 22.47414670480852,
+                "x": 124.49963809489158,
+                "y": 136.98527515311855
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02859.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 18.90682183102939,
+                "width": 17.123159394139833,
+                "x": 113.08419849879837,
+                "y": 141.9795299764093
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02869.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 17.123159394139833,
+                "width": 14.982764469872336,
+                "x": 105.23608377648429,
+                "y": 149.47091221134548
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02879.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 16.766426906761893,
+                "width": 15.339496957250248,
+                "x": 137.34200764049646,
+                "y": 146.6170523123222
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02889.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 17.479891881517716,
+                "width": 16.40969441938398,
+                "x": 148.04398226183383,
+                "y": 133.0612177919615
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02899.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 28.538598990233027,
+                "width": 25.328006603831824,
+                "x": 147.68724977445592,
+                "y": 189.42495079767173
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02909.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 44.234828434861186,
+                "width": 36.02998122516922,
+                "x": 178.72297617633433,
+                "y": 138.7689375900081
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02919.jpg"
     },
     {
-        "annotations": [],
+        "annotations": [
+            {
+                "class": "fryingpan",
+                "height": 62.07145280375683,
+                "width": 50.299280720285736,
+                "x": 219.7472122247943,
+                "y": 23.90107665432016
+            }
+        ],
         "class": "image",
         "filename": "rpi_images/00003/02929.jpg"
     },
