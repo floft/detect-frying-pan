@@ -22,5 +22,9 @@ def keep_nth_files(d, number=10):
 if __name__ == "__main__":
     #keep_nth_files("rpi_images/00002")
     #keep_nth_files("rpi_images/00003")
-    keep_nth_files("rpi_images/00008")
+    #keep_nth_files("rpi_images/00004")
+    #keep_nth_files("rpi_images/00005")
+    #keep_nth_files("rpi_images/00006")
+    #keep_nth_files("rpi_images/00007")
+    #keep_nth_files("rpi_images/00008")
 
