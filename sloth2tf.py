@@ -126,6 +126,7 @@ def create_tf_example(labels, filename, annotations, debug=False):
         image_format = b'jpeg'
     else:
         print("Warning: skipping", filename, "since only supports PNG or JPEG images")
+        return
 
     # Calculate the annotations based on the original width/height since that's
     # what was annotated (i.e. before we resize)

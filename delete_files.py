@@ -20,6 +20,7 @@ def keep_nth_files(d, number=10):
     print("Removed", deleted, "/", num, "= %.01f%%"%(deleted/num*100))
 
 if __name__ == "__main__":
-    keep_nth_files("rpi_images/00002")
-    keep_nth_files("rpi_images/00003")
+    #keep_nth_files("rpi_images/00002")
+    #keep_nth_files("rpi_images/00003")
+    keep_nth_files("rpi_images/00008")
 
