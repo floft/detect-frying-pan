@@ -3,6 +3,8 @@ Detect Frying Pan
 Use an object detection neural network to detect frying pans in images. The
 purpose of this is for use in an autonomous drone egg drop entry.
 
+See the [demo video on Youtube](https://www.youtube.com/watch?v=9iIUZG7x9K0).
+
 # Instructions
 Get this code:
 
